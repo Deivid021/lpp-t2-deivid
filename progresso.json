@@ -1,0 +1,26 @@
+{
+  "matricula": "1038135",
+  "linguagem": "python",
+  "universo": "BitFood",
+  "fases": {
+    "fase0": {
+      "ok": true,
+      "testes": 4,
+      "falhas": 0
+    },
+    "fase1": {
+      "ok": true,
+      "testes": 5,
+      "falhas": 0
+    },
+    "fase2": {
+      "ok": false,
+      "testes": 7,
+      "falhas": 6
+    }
+  },
+  "xp": 15,
+  "xp_total": 100,
+  "vitoria": null,
+  "gerado_em": "2026-11-12T01:33:26+00:00"
+}

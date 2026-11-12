@@ -1,0 +1,2399 @@
+{
+ "matricula": "1038135",
+ "universo": {
+  "id": 7,
+  "slug": "bitfood",
+  "marca": "BitFood",
+  "emoji": "🍕",
+  "historia": "A BitFood é um app de delivery cujo painel de pedidos mostra totais diferentes a cada atualização, porque o código antigo altera as listas de pedidos. Você vai reconstruir o núcleo de relatórios só com funções puras.",
+  "vocab": {
+   "item": "prato",
+   "itens": "pratos",
+   "item_r": "prato",
+   "itens_r": "pratos",
+   "categoria": "culinaria",
+   "categorias": "culinarias",
+   "categoria_r": "culinária",
+   "usuario": "cliente",
+   "usuarios": "clientes",
+   "usuario_r": "cliente",
+   "evento": "pedido",
+   "eventos": "pedidos",
+   "evento_r": "pedido",
+   "medida_r": "unidades pedidas",
+   "preco_r": "preço do prato",
+   "verbo_r": "pedir",
+   "eventos_r": "pedidos",
+   "categorias_r": "culinárias",
+   "usuarios_r": "clientes",
+   "genero_item": "m",
+   "genero_usuario": "m",
+   "genero_evento": "m",
+   "genero_categoria": "f"
+  },
+  "categorias": [
+   "Italiana",
+   "Japonesa",
+   "Brasileira",
+   "Árabe",
+   "Mexicana",
+   "Vegana"
+  ]
+ },
+ "params": {
+  "n_top": 6,
+  "pct": 10,
+  "mes_promo": 7,
+  "limite_classificacao": 12,
+  "bonus": 25,
+  "n_final": 5,
+  "mes_relatorio": 10,
+  "categoria_foco": "Brasileira"
+ },
+ "regras": {
+  "formato_nome": "maiusculas",
+  "ordem_preco": "decrescente",
+  "criterio_ranking": "frequencia",
+  "nota_min": 2,
+  "mes_inatividade": 4,
+  "arredondamento": "cima",
+  "restricao": "ate",
+  "velocidade": 1,
+  "passo_codigo": 2,
+  "promo_alvo": "mes_do_aniversario",
+  "posicao_maxima": 120,
+  "limiar_medida": 2
+ },
+ "itens": [
+  {
+   "id": 1,
+   "nome": "Rodízio Defumado",
+   "categoria": "Árabe",
+   "preco": 4140,
+   "classificacao": 18
+  },
+  {
+   "id": 2,
+   "nome": "Porção ao Molho",
+   "categoria": "Vegana",
+   "preco": 5000,
+   "classificacao": 18
+  },
+  {
+   "id": 3,
+   "nome": "Rodízio Grelhado",
+   "categoria": "Japonesa",
+   "preco": 4130,
+   "classificacao": 10
+  },
+  {
+   "id": 4,
+   "nome": "Porção da Casa",
+   "categoria": "Árabe",
+   "preco": 3700,
+   "classificacao": 10
+  },
+  {
+   "id": 5,
+   "nome": "Prato Gratinado",
+   "categoria": "Vegana",
+   "preco": 5780,
+   "classificacao": 0
+  },
+  {
+   "id": 6,
+   "nome": "Rodízio Gratinado",
+   "categoria": "Mexicana",
+   "preco": 2680,
+   "classificacao": 18
+  },
+  {
+   "id": 7,
+   "nome": "Festival Gratinado",
+   "categoria": "Italiana",
+   "preco": 5940,
+   "classificacao": 18
+  },
+  {
+   "id": 8,
+   "nome": "Combo ao Molho",
+   "categoria": "Mexicana",
+   "preco": 7810,
+   "classificacao": 12
+  },
+  {
+   "id": 9,
+   "nome": "Box Artesanal",
+   "categoria": "Árabe",
+   "preco": 4030,
+   "classificacao": 18
+  },
+  {
+   "id": 10,
+   "nome": "Combo Caprichado",
+   "categoria": "Brasileira",
+   "preco": 1510,
+   "classificacao": 18
+  },
+  {
+   "id": 11,
+   "nome": "Porção Crocante",
+   "categoria": "Brasileira",
+   "preco": 3140,
+   "classificacao": 12
+  },
+  {
+   "id": 12,
+   "nome": "Festival Caprichado",
+   "categoria": "Árabe",
+   "preco": 2340,
+   "classificacao": 18
+  },
+  {
+   "id": 13,
+   "nome": "Especial Crocante",
+   "categoria": "Japonesa",
+   "preco": 2080,
+   "classificacao": 0
+  },
+  {
+   "id": 14,
+   "nome": "Prato Caprichado",
+   "categoria": "Japonesa",
+   "preco": 5060,
+   "classificacao": 10
+  },
+  {
+   "id": 15,
+   "nome": "Especial ao Molho",
+   "categoria": "Mexicana",
+   "preco": 7230,
+   "classificacao": 10
+  },
+  {
+   "id": 16,
+   "nome": "Rodízio da Casa",
+   "categoria": "Vegana",
+   "preco": 2070,
+   "classificacao": 16
+  },
+  {
+   "id": 17,
+   "nome": "Porção Grelhado",
+   "categoria": "Árabe",
+   "preco": 6070,
+   "classificacao": 16
+  },
+  {
+   "id": 18,
+   "nome": "Festival da Casa",
+   "categoria": "Japonesa",
+   "preco": 7030,
+   "classificacao": 14
+  },
+  {
+   "id": 19,
+   "nome": "Box Grelhado",
+   "categoria": "Mexicana",
+   "preco": 8600,
+   "classificacao": 16
+  },
+  {
+   "id": 20,
+   "nome": "Especial Caprichado",
+   "categoria": "Árabe",
+   "preco": 3250,
+   "classificacao": 18
+  },
+  {
+   "id": 21,
+   "nome": "Box ao Molho",
+   "categoria": "Brasileira",
+   "preco": 5630,
+   "classificacao": 14
+  },
+  {
+   "id": 22,
+   "nome": "Especial Grelhado",
+   "categoria": "Japonesa",
+   "preco": 4070,
+   "classificacao": 12
+  },
+  {
+   "id": 23,
+   "nome": "Box Defumado",
+   "categoria": "Italiana",
+   "preco": 7090,
+   "classificacao": 10
+  },
+  {
+   "id": 24,
+   "nome": "Porção Defumado",
+   "categoria": "Japonesa",
+   "preco": 5250,
+   "classificacao": 0
+  }
+ ],
+ "usuarios": [
+  {
+   "id": 1,
+   "nome": "Vitor Teixeira",
+   "plano": "basico",
+   "idade": 14,
+   "mes": 3
+  },
+  {
+   "id": 2,
+   "nome": "Karen Moraes",
+   "plano": "basico",
+   "idade": 60,
+   "mes": 1
+  },
+  {
+   "id": 3,
+   "nome": "Diego Melo",
+   "plano": "premium",
+   "idade": 44,
+   "mes": 4
+  },
+  {
+   "id": 4,
+   "nome": "Nando Silva",
+   "plano": "premium",
+   "idade": 68,
+   "mes": 8
+  },
+  {
+   "id": 5,
+   "nome": "Tania Matos",
+   "plano": "basico",
+   "idade": 60,
+   "mes": 10
+  },
+  {
+   "id": 6,
+   "nome": "Diego Pinto",
+   "plano": "premium",
+   "idade": 22,
+   "mes": 9
+  },
+  {
+   "id": 7,
+   "nome": "Iara Rocha",
+   "plano": "premium",
+   "idade": 53,
+   "mes": 9
+  },
+  {
+   "id": 8,
+   "nome": "Rita Alves",
+   "plano": "premium",
+   "idade": 46,
+   "mes": 1
+  },
+  {
+   "id": 9,
+   "nome": "Gabi Melo",
+   "plano": "padrao",
+   "idade": 62,
+   "mes": 3
+  },
+  {
+   "id": 10,
+   "nome": "Sergio Costa",
+   "plano": "padrao",
+   "idade": 62,
+   "mes": 6
+  },
+  {
+   "id": 11,
+   "nome": "Lucas Duarte",
+   "plano": "premium",
+   "idade": 52,
+   "mes": 6
+  },
+  {
+   "id": 12,
+   "nome": "Jonas Melo",
+   "plano": "premium",
+   "idade": 36,
+   "mes": 10
+  },
+  {
+   "id": 13,
+   "nome": "Mara Nunes",
+   "plano": "premium",
+   "idade": 53,
+   "mes": 4
+  },
+  {
+   "id": 14,
+   "nome": "Elisa Lima",
+   "plano": "padrao",
+   "idade": 50,
+   "mes": 12
+  },
+  {
+   "id": 15,
+   "nome": "Paulo Silva",
+   "plano": "premium",
+   "idade": 49,
+   "mes": 12
+  },
+  {
+   "id": 16,
+   "nome": "Hugo Faria",
+   "plano": "premium",
+   "idade": 33,
+   "mes": 8
+  },
+  {
+   "id": 17,
+   "nome": "Gabi Alves",
+   "plano": "premium",
+   "idade": 67,
+   "mes": 4
+  },
+  {
+   "id": 18,
+   "nome": "Olga Souza",
+   "plano": "padrao",
+   "idade": 32,
+   "mes": 9
+  },
+  {
+   "id": 19,
+   "nome": "Bruno Costa",
+   "plano": "basico",
+   "idade": 64,
+   "mes": 5
+  },
+  {
+   "id": 20,
+   "nome": "Karen Alves",
+   "plano": "premium",
+   "idade": 59,
+   "mes": 1
+  },
+  {
+   "id": 21,
+   "nome": "Sergio Campos",
+   "plano": "basico",
+   "idade": 12,
+   "mes": 10
+  },
+  {
+   "id": 22,
+   "nome": "Ana Silva",
+   "plano": "premium",
+   "idade": 59,
+   "mes": 7
+  },
+  {
+   "id": 23,
+   "nome": "Gabi Rocha",
+   "plano": "basico",
+   "idade": 39,
+   "mes": 9
+  },
+  {
+   "id": 24,
+   "nome": "Hugo Reis",
+   "plano": "padrao",
+   "idade": 22,
+   "mes": 6
+  },
+  {
+   "id": 25,
+   "nome": "Paulo Ramos",
+   "plano": "premium",
+   "idade": 68,
+   "mes": 12
+  },
+  {
+   "id": 26,
+   "nome": "Rita Freitas",
+   "plano": "padrao",
+   "idade": 37,
+   "mes": 6
+  },
+  {
+   "id": 27,
+   "nome": "Tania Reis",
+   "plano": "basico",
+   "idade": 21,
+   "mes": 3
+  },
+  {
+   "id": 28,
+   "nome": "Gabi Lima",
+   "plano": "basico",
+   "idade": 49,
+   "mes": 2
+  },
+  {
+   "id": 29,
+   "nome": "Paulo Matos",
+   "plano": "basico",
+   "idade": 27,
+   "mes": 11
+  },
+  {
+   "id": 30,
+   "nome": "Ana Silva",
+   "plano": "premium",
+   "idade": 13,
+   "mes": 7
+  }
+ ],
+ "eventos": [
+  {
+   "usuario": 18,
+   "item": 19,
+   "medida": 4,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 23,
+   "item": 21,
+   "medida": 1,
+   "nota": 1,
+   "mes": 11
+  },
+  {
+   "usuario": 4,
+   "item": 13,
+   "medida": 4,
+   "nota": 3,
+   "mes": 9
+  },
+  {
+   "usuario": 24,
+   "item": 23,
+   "medida": 3,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 26,
+   "item": 7,
+   "medida": 1,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 4,
+   "item": 3,
+   "medida": 6,
+   "nota": 4,
+   "mes": 4
+  },
+  {
+   "usuario": 1,
+   "item": 2,
+   "medida": 3,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 30,
+   "item": 24,
+   "medida": 5,
+   "nota": 0,
+   "mes": 10
+  },
+  {
+   "usuario": 9,
+   "item": 4,
+   "medida": 5,
+   "nota": 5,
+   "mes": 11
+  },
+  {
+   "usuario": 8,
+   "item": 1,
+   "medida": 2,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 30,
+   "item": 21,
+   "medida": 2,
+   "nota": 0,
+   "mes": 8
+  },
+  {
+   "usuario": 3,
+   "item": 9,
+   "medida": 2,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 21,
+   "item": 17,
+   "medida": 1,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 27,
+   "item": 15,
+   "medida": 5,
+   "nota": 5,
+   "mes": 12
+  },
+  {
+   "usuario": 9,
+   "item": 12,
+   "medida": 1,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 27,
+   "item": 4,
+   "medida": 4,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 5,
+   "item": 7,
+   "medida": 1,
+   "nota": 0,
+   "mes": 6
+  },
+  {
+   "usuario": 6,
+   "item": 15,
+   "medida": 4,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 24,
+   "item": 3,
+   "medida": 4,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 18,
+   "item": 2,
+   "medida": 6,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 30,
+   "item": 2,
+   "medida": 4,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 23,
+   "item": 2,
+   "medida": 5,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 2,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 7,
+   "item": 20,
+   "medida": 1,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 5,
+   "item": 5,
+   "medida": 6,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 23,
+   "item": 22,
+   "medida": 2,
+   "nota": 2,
+   "mes": 8
+  },
+  {
+   "usuario": 20,
+   "item": 19,
+   "medida": 6,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 30,
+   "item": 22,
+   "medida": 6,
+   "nota": 2,
+   "mes": 2
+  },
+  {
+   "usuario": 20,
+   "item": 10,
+   "medida": 2,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 21,
+   "item": 13,
+   "medida": 2,
+   "nota": 4,
+   "mes": 10
+  },
+  {
+   "usuario": 5,
+   "item": 12,
+   "medida": 3,
+   "nota": 4,
+   "mes": 8
+  },
+  {
+   "usuario": 7,
+   "item": 9,
+   "medida": 5,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 21,
+   "item": 16,
+   "medida": 3,
+   "nota": 1,
+   "mes": 4
+  },
+  {
+   "usuario": 26,
+   "item": 2,
+   "medida": 6,
+   "nota": 0,
+   "mes": 8
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 1,
+   "nota": 2,
+   "mes": 11
+  },
+  {
+   "usuario": 11,
+   "item": 10,
+   "medida": 3,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 9,
+   "item": 10,
+   "medida": 2,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 21,
+   "item": 16,
+   "medida": 1,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 26,
+   "item": 2,
+   "medida": 6,
+   "nota": 4,
+   "mes": 5
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 2,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 12,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 8
+  },
+  {
+   "usuario": 11,
+   "item": 14,
+   "medida": 1,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 24,
+   "item": 15,
+   "medida": 6,
+   "nota": 5,
+   "mes": 6
+  },
+  {
+   "usuario": 28,
+   "item": 3,
+   "medida": 1,
+   "nota": 1,
+   "mes": 3
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 6,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 8,
+   "item": 22,
+   "medida": 5,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 7,
+   "item": 24,
+   "medida": 6,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 13,
+   "item": 16,
+   "medida": 1,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 27,
+   "item": 22,
+   "medida": 2,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 16,
+   "item": 16,
+   "medida": 5,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 26,
+   "item": 19,
+   "medida": 1,
+   "nota": 5,
+   "mes": 1
+  },
+  {
+   "usuario": 9,
+   "item": 23,
+   "medida": 6,
+   "nota": 5,
+   "mes": 10
+  },
+  {
+   "usuario": 4,
+   "item": 4,
+   "medida": 2,
+   "nota": 1,
+   "mes": 9
+  },
+  {
+   "usuario": 6,
+   "item": 12,
+   "medida": 2,
+   "nota": 1,
+   "mes": 2
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 1,
+   "nota": 4,
+   "mes": 6
+  },
+  {
+   "usuario": 24,
+   "item": 6,
+   "medida": 4,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 20,
+   "item": 13,
+   "medida": 1,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 25,
+   "item": 1,
+   "medida": 3,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 11,
+   "item": 2,
+   "medida": 2,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 11,
+   "item": 16,
+   "medida": 5,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 7,
+   "item": 16,
+   "medida": 2,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 11,
+   "item": 10,
+   "medida": 4,
+   "nota": 5,
+   "mes": 6
+  },
+  {
+   "usuario": 9,
+   "item": 7,
+   "medida": 2,
+   "nota": 1,
+   "mes": 3
+  },
+  {
+   "usuario": 28,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 12
+  },
+  {
+   "usuario": 21,
+   "item": 17,
+   "medida": 3,
+   "nota": 3,
+   "mes": 2
+  },
+  {
+   "usuario": 7,
+   "item": 20,
+   "medida": 5,
+   "nota": 1,
+   "mes": 8
+  },
+  {
+   "usuario": 21,
+   "item": 3,
+   "medida": 1,
+   "nota": 3,
+   "mes": 1
+  },
+  {
+   "usuario": 5,
+   "item": 13,
+   "medida": 1,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 11,
+   "item": 2,
+   "medida": 4,
+   "nota": 4,
+   "mes": 7
+  },
+  {
+   "usuario": 6,
+   "item": 11,
+   "medida": 1,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 5,
+   "item": 15,
+   "medida": 4,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 21,
+   "item": 6,
+   "medida": 4,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 20,
+   "item": 20,
+   "medida": 5,
+   "nota": 5,
+   "mes": 1
+  },
+  {
+   "usuario": 20,
+   "item": 23,
+   "medida": 5,
+   "nota": 3,
+   "mes": 9
+  },
+  {
+   "usuario": 7,
+   "item": 9,
+   "medida": 2,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 1,
+   "nota": 3,
+   "mes": 1
+  },
+  {
+   "usuario": 21,
+   "item": 2,
+   "medida": 4,
+   "nota": 3,
+   "mes": 2
+  },
+  {
+   "usuario": 3,
+   "item": 9,
+   "medida": 4,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 5,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 6,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 12,
+   "item": 16,
+   "medida": 6,
+   "nota": 0,
+   "mes": 3
+  },
+  {
+   "usuario": 8,
+   "item": 2,
+   "medida": 5,
+   "nota": 4,
+   "mes": 3
+  },
+  {
+   "usuario": 15,
+   "item": 1,
+   "medida": 2,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 1,
+   "item": 10,
+   "medida": 1,
+   "nota": 4,
+   "mes": 4
+  },
+  {
+   "usuario": 8,
+   "item": 14,
+   "medida": 5,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 30,
+   "item": 4,
+   "medida": 4,
+   "nota": 4,
+   "mes": 10
+  },
+  {
+   "usuario": 16,
+   "item": 16,
+   "medida": 3,
+   "nota": 2,
+   "mes": 9
+  },
+  {
+   "usuario": 6,
+   "item": 10,
+   "medida": 6,
+   "nota": 5,
+   "mes": 12
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 6,
+   "nota": 2,
+   "mes": 12
+  },
+  {
+   "usuario": 15,
+   "item": 5,
+   "medida": 3,
+   "nota": 2,
+   "mes": 11
+  },
+  {
+   "usuario": 18,
+   "item": 17,
+   "medida": 6,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 28,
+   "item": 15,
+   "medida": 5,
+   "nota": 0,
+   "mes": 3
+  },
+  {
+   "usuario": 19,
+   "item": 16,
+   "medida": 3,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 23,
+   "item": 9,
+   "medida": 1,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 9,
+   "item": 22,
+   "medida": 6,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 9,
+   "item": 10,
+   "medida": 2,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 12,
+   "item": 5,
+   "medida": 5,
+   "nota": 4,
+   "mes": 2
+  },
+  {
+   "usuario": 16,
+   "item": 2,
+   "medida": 1,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 27,
+   "item": 22,
+   "medida": 4,
+   "nota": 4,
+   "mes": 1
+  },
+  {
+   "usuario": 9,
+   "item": 2,
+   "medida": 1,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 19,
+   "item": 21,
+   "medida": 5,
+   "nota": 4,
+   "mes": 3
+  },
+  {
+   "usuario": 20,
+   "item": 22,
+   "medida": 5,
+   "nota": 1,
+   "mes": 2
+  },
+  {
+   "usuario": 13,
+   "item": 22,
+   "medida": 1,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 1,
+   "nota": 4,
+   "mes": 6
+  },
+  {
+   "usuario": 18,
+   "item": 20,
+   "medida": 4,
+   "nota": 4,
+   "mes": 7
+  },
+  {
+   "usuario": 24,
+   "item": 19,
+   "medida": 5,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 7,
+   "item": 6,
+   "medida": 2,
+   "nota": 2,
+   "mes": 4
+  },
+  {
+   "usuario": 25,
+   "item": 10,
+   "medida": 6,
+   "nota": 2,
+   "mes": 9
+  },
+  {
+   "usuario": 5,
+   "item": 19,
+   "medida": 1,
+   "nota": 3,
+   "mes": 4
+  },
+  {
+   "usuario": 9,
+   "item": 17,
+   "medida": 4,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 28,
+   "item": 21,
+   "medida": 1,
+   "nota": 0,
+   "mes": 1
+  },
+  {
+   "usuario": 7,
+   "item": 5,
+   "medida": 1,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 16,
+   "item": 11,
+   "medida": 1,
+   "nota": 1,
+   "mes": 1
+  },
+  {
+   "usuario": 15,
+   "item": 3,
+   "medida": 3,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 13,
+   "item": 7,
+   "medida": 4,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 24,
+   "item": 19,
+   "medida": 4,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 9,
+   "item": 12,
+   "medida": 2,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 13,
+   "item": 4,
+   "medida": 4,
+   "nota": 2,
+   "mes": 10
+  },
+  {
+   "usuario": 6,
+   "item": 13,
+   "medida": 3,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 20,
+   "item": 23,
+   "medida": 6,
+   "nota": 0,
+   "mes": 6
+  }
+ ],
+ "eventos_brutos": [
+  {
+   "usuario": 11,
+   "item": 10,
+   "medida": 4,
+   "nota": 5,
+   "mes": 6
+  },
+  {
+   "usuario": 16,
+   "item": 16,
+   "medida": 5,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 6,
+   "item": 12,
+   "medida": 2,
+   "nota": 1,
+   "mes": 2
+  },
+  {
+   "usuario": 21,
+   "item": 3,
+   "medida": 1,
+   "nota": 3,
+   "mes": 1
+  },
+  {
+   "usuario": 26,
+   "item": 2,
+   "medida": 6,
+   "nota": 4,
+   "mes": 5
+  },
+  {
+   "usuario": 5,
+   "item": 13,
+   "medida": 1,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 9,
+   "item": 2,
+   "medida": 1,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 4,
+   "item": 3,
+   "medida": 6,
+   "nota": 4,
+   "mes": 4
+  },
+  {
+   "usuario": 6,
+   "item": 15,
+   "medida": 4,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 20,
+   "item": 22,
+   "medida": 5,
+   "nota": 1,
+   "mes": 2
+  },
+  {
+   "usuario": 24,
+   "item": 19,
+   "medida": 5,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 21,
+   "item": 17,
+   "medida": 3,
+   "nota": 3,
+   "mes": 2
+  },
+  {
+   "usuario": 9,
+   "item": 17,
+   "medida": 4,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 9,
+   "item": 22,
+   "medida": 6,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 3,
+   "item": 9,
+   "medida": 4,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 21,
+   "item": 13,
+   "medida": 2,
+   "nota": 4,
+   "mes": 10
+  },
+  {
+   "usuario": 5,
+   "item": 15,
+   "medida": 4,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 28,
+   "item": 21,
+   "medida": 1,
+   "nota": 0,
+   "mes": 1
+  },
+  {
+   "usuario": 5,
+   "item": 5,
+   "medida": 6,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 27,
+   "item": 15,
+   "medida": 5,
+   "nota": 5,
+   "mes": 12
+  },
+  {
+   "usuario": 6,
+   "item": 11,
+   "medida": 1,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 15,
+   "item": 5,
+   "medida": 3,
+   "nota": 2,
+   "mes": 11
+  },
+  {
+   "usuario": 20,
+   "item": 20,
+   "medida": 5,
+   "nota": 5,
+   "mes": 1
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 6,
+   "nota": 2,
+   "mes": 12
+  },
+  {
+   "usuario": 1,
+   "item": 2,
+   "medida": 3,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 21,
+   "item": 3,
+   "medida": 1,
+   "nota": 3,
+   "mes": 1
+  },
+  {
+   "usuario": 13,
+   "item": 7,
+   "medida": 4,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 18,
+   "item": 20,
+   "medida": 4,
+   "nota": 4,
+   "mes": 7
+  },
+  {
+   "usuario": 5,
+   "item": 19,
+   "medida": 1,
+   "nota": 3,
+   "mes": 4
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 6,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 27,
+   "item": 4,
+   "medida": 4,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 18,
+   "item": 2,
+   "medida": 6,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 28,
+   "item": 3,
+   "medida": 1,
+   "nota": 1,
+   "mes": 3
+  },
+  {
+   "usuario": 5,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 9,
+   "item": 7,
+   "medida": 2,
+   "nota": 1,
+   "mes": 3
+  },
+  {
+   "usuario": 1,
+   "item": 10,
+   "medida": 1,
+   "nota": 4,
+   "mes": 4
+  },
+  {
+   "usuario": 8,
+   "item": 14,
+   "medida": 5,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 9,
+   "item": 4,
+   "medida": 5,
+   "nota": 5,
+   "mes": 11
+  },
+  {
+   "usuario": 25,
+   "item": 10,
+   "medida": 6,
+   "nota": 2,
+   "mes": 9
+  },
+  {
+   "usuario": 24,
+   "item": 23,
+   "medida": 3,
+   "nota": 0,
+   "mes": 4
+  },
+  {
+   "usuario": 21,
+   "item": 16,
+   "medida": 3,
+   "nota": 1,
+   "mes": 4
+  },
+  {
+   "usuario": 11,
+   "item": 10,
+   "medida": 3,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 8,
+   "item": 2,
+   "medida": 5,
+   "nota": 4,
+   "mes": 3
+  },
+  {
+   "usuario": 8,
+   "item": 22,
+   "medida": 5,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 30,
+   "item": 4,
+   "medida": 4,
+   "nota": 4,
+   "mes": 10
+  },
+  {
+   "usuario": 20,
+   "item": 23,
+   "medida": 6,
+   "nota": 0,
+   "mes": 6
+  },
+  {
+   "usuario": 30,
+   "item": 21,
+   "medida": 2,
+   "nota": 0,
+   "mes": 8
+  },
+  {
+   "usuario": 11,
+   "item": 2,
+   "medida": 2,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 2,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 9,
+   "item": 10,
+   "medida": 2,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 26,
+   "item": 7,
+   "medida": 1,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 12,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 8
+  },
+  {
+   "usuario": 7,
+   "item": 9,
+   "medida": 2,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 11,
+   "item": 2,
+   "medida": 4,
+   "nota": 4,
+   "mes": 7
+  },
+  {
+   "usuario": 7,
+   "item": 9,
+   "medida": 5,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 5,
+   "item": 12,
+   "medida": 3,
+   "nota": 4,
+   "mes": 8
+  },
+  {
+   "usuario": 15,
+   "item": 3,
+   "medida": 3,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 1,
+   "item": 10,
+   "medida": 1,
+   "nota": 4,
+   "mes": 4
+  },
+  {
+   "usuario": 23,
+   "item": 22,
+   "medida": 2,
+   "nota": 2,
+   "mes": 8
+  },
+  {
+   "usuario": 11,
+   "item": 16,
+   "medida": 5,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 1,
+   "nota": 4,
+   "mes": 6
+  },
+  {
+   "usuario": 21,
+   "item": 6,
+   "medida": 4,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 6,
+   "item": 10,
+   "medida": 6,
+   "nota": 5,
+   "mes": 12
+  },
+  {
+   "usuario": 23,
+   "item": 2,
+   "medida": 5,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 24,
+   "item": 3,
+   "medida": 4,
+   "nota": 0,
+   "mes": 11
+  },
+  {
+   "usuario": 23,
+   "item": 9,
+   "medida": 1,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 28,
+   "item": 14,
+   "medida": 1,
+   "nota": 2,
+   "mes": 11
+  },
+  {
+   "usuario": 12,
+   "item": 5,
+   "medida": 5,
+   "nota": 4,
+   "mes": 2
+  },
+  {
+   "usuario": 4,
+   "item": 4,
+   "medida": 2,
+   "nota": 1,
+   "mes": 9
+  },
+  {
+   "usuario": 15,
+   "item": 1,
+   "medida": 2,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 25,
+   "item": 1,
+   "medida": 3,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 4,
+   "item": 13,
+   "medida": 4,
+   "nota": 3,
+   "mes": 9
+  },
+  {
+   "usuario": 9,
+   "item": 12,
+   "medida": 1,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 9,
+   "item": 12,
+   "medida": 2,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 16,
+   "item": 2,
+   "medida": 1,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 27,
+   "item": 22,
+   "medida": 2,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 5,
+   "item": 7,
+   "medida": 1,
+   "nota": 0,
+   "mes": 6
+  },
+  {
+   "usuario": 6,
+   "item": 13,
+   "medida": 3,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 9,
+   "item": 10,
+   "medida": 2,
+   "nota": 5,
+   "mes": 9
+  },
+  {
+   "usuario": 16,
+   "item": 16,
+   "medida": 3,
+   "nota": 2,
+   "mes": 9
+  },
+  {
+   "usuario": 20,
+   "item": 4,
+   "medida": 1,
+   "nota": 3,
+   "mes": 1
+  },
+  {
+   "usuario": 19,
+   "item": 16,
+   "medida": 3,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 30,
+   "item": 2,
+   "medida": 4,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 30,
+   "item": 24,
+   "medida": 5,
+   "nota": 0,
+   "mes": 10
+  },
+  {
+   "usuario": 28,
+   "item": 15,
+   "medida": 5,
+   "nota": 0,
+   "mes": 3
+  },
+  {
+   "usuario": 12,
+   "item": 16,
+   "medida": 6,
+   "nota": 0,
+   "mes": 3
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 1,
+   "nota": 4,
+   "mes": 6
+  },
+  {
+   "usuario": 7,
+   "item": 24,
+   "medida": 6,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 30,
+   "item": 22,
+   "medida": 6,
+   "nota": 2,
+   "mes": 2
+  },
+  {
+   "usuario": 18,
+   "item": 19,
+   "medida": 4,
+   "nota": 3,
+   "mes": 5
+  },
+  {
+   "usuario": 12,
+   "item": 15,
+   "medida": 0,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 11,
+   "item": 7,
+   "medida": 0,
+   "nota": 0,
+   "mes": 9
+  },
+  {
+   "usuario": 13,
+   "item": 16,
+   "medida": 1,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 24,
+   "item": 6,
+   "medida": 4,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 23,
+   "item": 21,
+   "medida": 1,
+   "nota": 1,
+   "mes": 11
+  },
+  {
+   "usuario": 21,
+   "item": 2,
+   "medida": 4,
+   "nota": 3,
+   "mes": 2
+  },
+  {
+   "usuario": 20,
+   "item": 23,
+   "medida": 5,
+   "nota": 3,
+   "mes": 9
+  },
+  {
+   "usuario": 16,
+   "item": 2,
+   "medida": 1,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 7,
+   "item": 20,
+   "medida": 5,
+   "nota": 1,
+   "mes": 8
+  },
+  {
+   "usuario": 7,
+   "item": 20,
+   "medida": 1,
+   "nota": 5,
+   "mes": 2
+  },
+  {
+   "usuario": 26,
+   "item": 19,
+   "medida": 1,
+   "nota": 5,
+   "mes": 1
+  },
+  {
+   "usuario": 13,
+   "item": 9,
+   "medida": 0,
+   "nota": 0,
+   "mes": 5
+  },
+  {
+   "usuario": 3,
+   "item": 9,
+   "medida": 2,
+   "nota": 2,
+   "mes": 7
+  },
+  {
+   "usuario": 13,
+   "item": 4,
+   "medida": 4,
+   "nota": 2,
+   "mes": 10
+  },
+  {
+   "usuario": 7,
+   "item": 6,
+   "medida": 2,
+   "nota": 2,
+   "mes": 4
+  },
+  {
+   "usuario": 20,
+   "item": 10,
+   "medida": 2,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 20,
+   "item": 19,
+   "medida": 6,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 7,
+   "item": 5,
+   "medida": 1,
+   "nota": 5,
+   "mes": 5
+  },
+  {
+   "usuario": 28,
+   "item": 7,
+   "medida": 2,
+   "nota": 4,
+   "mes": 12
+  },
+  {
+   "usuario": 21,
+   "item": 17,
+   "medida": 1,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 7,
+   "item": 16,
+   "medida": 2,
+   "nota": 4,
+   "mes": 9
+  },
+  {
+   "usuario": 16,
+   "item": 11,
+   "medida": 1,
+   "nota": 1,
+   "mes": 1
+  },
+  {
+   "usuario": 7,
+   "item": 24,
+   "medida": 6,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 11,
+   "item": 14,
+   "medida": 1,
+   "nota": 0,
+   "mes": 7
+  },
+  {
+   "usuario": 20,
+   "item": 13,
+   "medida": 1,
+   "nota": 2,
+   "mes": 3
+  },
+  {
+   "usuario": 19,
+   "item": 21,
+   "medida": 5,
+   "nota": 4,
+   "mes": 3
+  },
+  {
+   "usuario": 27,
+   "item": 22,
+   "medida": 4,
+   "nota": 4,
+   "mes": 1
+  },
+  {
+   "usuario": 16,
+   "item": 2,
+   "medida": 1,
+   "nota": 3,
+   "mes": 6
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 6,
+   "nota": 5,
+   "mes": 8
+  },
+  {
+   "usuario": 5,
+   "item": 7,
+   "medida": 1,
+   "nota": 0,
+   "mes": 6
+  },
+  {
+   "usuario": 19,
+   "item": 19,
+   "medida": 2,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 13,
+   "item": 22,
+   "medida": 1,
+   "nota": 1,
+   "mes": 5
+  },
+  {
+   "usuario": 9,
+   "item": 23,
+   "medida": 6,
+   "nota": 5,
+   "mes": 10
+  },
+  {
+   "usuario": 24,
+   "item": 15,
+   "medida": 6,
+   "nota": 5,
+   "mes": 6
+  },
+  {
+   "usuario": 21,
+   "item": 16,
+   "medida": 1,
+   "nota": 4,
+   "mes": 11
+  },
+  {
+   "usuario": 19,
+   "item": 14,
+   "medida": 0,
+   "nota": 0,
+   "mes": 2
+  },
+  {
+   "usuario": 30,
+   "item": 4,
+   "medida": 4,
+   "nota": 4,
+   "mes": 10
+  },
+  {
+   "usuario": 24,
+   "item": 19,
+   "medida": 4,
+   "nota": 3,
+   "mes": 10
+  },
+  {
+   "usuario": 18,
+   "item": 17,
+   "medida": 6,
+   "nota": 3,
+   "mes": 12
+  },
+  {
+   "usuario": 8,
+   "item": 1,
+   "medida": 2,
+   "nota": 5,
+   "mes": 4
+  },
+  {
+   "usuario": 24,
+   "item": 8,
+   "medida": 0,
+   "nota": 0,
+   "mes": 12
+  },
+  {
+   "usuario": 26,
+   "item": 2,
+   "medida": 6,
+   "nota": 0,
+   "mes": 8
+  },
+  {
+   "usuario": 27,
+   "item": 17,
+   "medida": 0,
+   "nota": 0,
+   "mes": 6
+  },
+  {
+   "usuario": 8,
+   "item": 1,
+   "medida": 2,
+   "nota": 5,
+   "mes": 4
+  }
+ ],
+ "player": [
+  {
+   "tipo": "trocar",
+   "valor": 14
+  },
+  {
+   "tipo": "avancar",
+   "valor": 65
+  },
+  {
+   "tipo": "voltar",
+   "valor": 85
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  },
+  {
+   "tipo": "avancar",
+   "valor": 22
+  },
+  {
+   "tipo": "voltar",
+   "valor": 119
+  },
+  {
+   "tipo": "avancar",
+   "valor": 6
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  },
+  {
+   "tipo": "avancar",
+   "valor": 65
+  },
+  {
+   "tipo": "trocar",
+   "valor": 11
+  },
+  {
+   "tipo": "trocar",
+   "valor": 17
+  },
+  {
+   "tipo": "avancar",
+   "valor": 62
+  },
+  {
+   "tipo": "avancar",
+   "valor": 91
+  },
+  {
+   "tipo": "trocar",
+   "valor": 5
+  },
+  {
+   "tipo": "voltar",
+   "valor": 42
+  },
+  {
+   "tipo": "avancar",
+   "valor": 85
+  },
+  {
+   "tipo": "voltar",
+   "valor": 61
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "voltar",
+   "valor": 105
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "trocar",
+   "valor": 23
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  },
+  {
+   "tipo": "avancar",
+   "valor": 87
+  },
+  {
+   "tipo": "voltar",
+   "valor": 88
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  },
+  {
+   "tipo": "avancar",
+   "valor": 108
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "trocar",
+   "valor": 4
+  },
+  {
+   "tipo": "trocar",
+   "valor": 2
+  },
+  {
+   "tipo": "trocar",
+   "valor": 22
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "avancar",
+   "valor": 32
+  },
+  {
+   "tipo": "avancar",
+   "valor": 27
+  },
+  {
+   "tipo": "trocar",
+   "valor": 3
+  },
+  {
+   "tipo": "pausar",
+   "valor": null
+  },
+  {
+   "tipo": "iniciar",
+   "valor": null
+  }
+ ],
+ "estado_inicial": {
+  "item": 1,
+  "posicao": 0,
+  "tocando": false,
+  "trocas": 0
+ }
+}
