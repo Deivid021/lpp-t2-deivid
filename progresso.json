@@ -14,13 +14,33 @@
       "falhas": 0
     },
     "fase2": {
-      "ok": false,
+      "ok": true,
       "testes": 7,
-      "falhas": 6
+      "falhas": 0
+    },
+    "fase3": {
+      "ok": true,
+      "testes": 9,
+      "falhas": 0
+    },
+    "fase4": {
+      "ok": true,
+      "testes": 8,
+      "falhas": 0
+    },
+    "fase5": {
+      "ok": true,
+      "testes": 10,
+      "falhas": 0
+    },
+    "chefao": {
+      "ok": true,
+      "testes": 5,
+      "falhas": 0
     }
   },
-  "xp": 15,
+  "xp": 100,
   "xp_total": 100,
-  "vitoria": null,
-  "gerado_em": "2026-11-12T01:33:26+00:00"
+  "vitoria": "T2-18EF3CA2",
+  "gerado_em": "2026-11-12T01:34:36+00:00"
 }
